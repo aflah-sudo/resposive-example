@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jhons's Umberlla Mart</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+            crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="stylesheet" href="./style.css">
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg border-bottom border-secondary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarText">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand mx-auto" href="#">
+                    <img src="./logo.avif" alt="logo main">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">1 Fold</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">2 Fold</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">3 Fold</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">5 Fold</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">kids</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                    </ul>
+                    <div class="navbar-item">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <i class="cart fas fa-shopping-cart"></i>
+                <i class="fa fa-search"></i>
+            </div>
+        </nav>
+        <main>
+            <div class="container-fluid p-0">
+                <img src="./main.png" alt="Umbrella" class="img-fluid w-100">
+            </div>
+            <div class="container my-5">
+                <h2 class="text-center mb-4">Collections</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card collection-cards">
+                            <img src="./1card.avif" class="card-img-top"
+                                alt="card 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Johns Cool Coated
+                                    collection</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card collection-cards">
+                            <img src="./2card.avif" class="card-img-top"
+                                alt="card 2">
+                            <div class="card-body">
+                                <h5 class="card-title">New collection</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="collection-cards card">
+                            <img src="./3card.webp" class="card-img-top"
+                                alt="cardx 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Straight Umbrella
+                                    Collection</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="fullscreen-video">
+                <video autoplay muted loop playsinline>
+                    <source src="./video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+            <!-- Container 1: Cards 1–5 -->
+            <div class="container my-5 d-none d-lg-block">
+                <h2 class="mb-4">Collections</h2>
+                <div class="row g-4">
+                    <!-- Card 1: 545 John's Cool -->
+                    <div class="col-lg">
+                        <div class="card rounded">
+                            <img src="./1.png" class="card-img-top"
+                                alt="545 John's Cool">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">545 John's Cool</h5>
+                                <p class="card-text">Rs. 549.00</p>
+                                <a href="/products/545-johns-cool"
+                                    class="btn btn-outline-secondary">Choose
+                                    Options</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2: JOHNS LEO 5 FOLD -->
+                    <div class="col-lg">
+                        <div class="card rounded">
+                            <img src="./2.png" class="card-img-top"
+                                alt="JOHNS LEO 5 FOLD">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">JOHNS LEO 5 FOLD</h5>
+                                <p class="card-text">From Rs. 560.00</p>
+                                <a href="/products/585-johns-leo"
+                                    class="btn btn-outline-secondary">Choose
+                                    Options</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3: John's 545 H2O 3Fold -->
+                    <div class="col-lg">
+                        <div class="card rounded">
+                            <img src="./3.png" class="card-img-top"
+                                alt="John's 545 H2O 3Fold">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">John's 545 H2O 3Fold</h5>
+                                <p class="card-text">Rs. 599.00 (Sold Out)</p>
+                                <a href="/products/johns-545-h2o-3fold"
+                                    class="btn btn-outline-secondary">Choose
+                                    Options</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 4: John's 520 Mini -->
+                    <div class="col-lg">
+                        <div class="card rounded">
+                            <img src="./4.png" class="card-img-top"
+                                alt="John's 520 Mini">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">John's 520 Mini</h5>
+                                <p class="card-text">Rs. 699.00</p>
+                                <a href="/products/johns-520-mini"
+                                    class="btn btn-outline-secondary">Choose
+                                    Options</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 5: John's 610 Mac -->
+                    <div class="col-lg">
+                        <div class="card rounded">
+                            <img src="./5.png" class="card-img-top"
+                                alt="John's 610 Mac">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">John's 610 Mac</h5>
+                                <p class="card-text">Rs. 975.00</p>
+                                <a href="/products/johns-610-mac"
+                                    class="btn btn-outline-secondary">Choose
+                                    Options</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Container 2: Cards 6–10 -->
+            <div class="container my-5 d-none d-lg-block">
+                <div class="row g-4">
+                    <!-- Card 6: John's 635 Walkmate -->
+                    <div class="col-lg">
+                        <div class="card rounded">
+                            <img src="./6.png" class="card-img-top"
+                                alt="John's 635 Walkmate">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">John's 635 Walkmate</h5>
+                                <p class="card-text">Rs. 1,299.00 (Sold Out)</p>
+                                <a href="/products/johns-635-walkmate"
+                                    class="btn btn-outline-secondary">Choose
+                                    Options</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 7: John's 545 Mac 3 Fold -->
+                    <div class="col-lg">
+                        <div class="card rounded">
+                            <img src="./7.png" class="card-img-top"
+                                alt="John's 545 Mac 3 Fold">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">John's 545 Mac 3
+                                    Fold</h5>
+                                <p class="card-text">Rs. 699.00</p>
+                                <a href="/products/johns-545-mac-3-fold-green"
+                                    class="btn btn-outline-secondary">Choose
+                                    Options</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 8: 610 Fluro -->
+                    <div class="col-lg">
+                        <div class="card rounded">
+                            <img src="./8.png" class="card-img-top"
+                                alt="610 Fluro">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">610 Fluro</h5>
+                                <p class="card-text">Rs. 799.00</p>
+                                <a href="/products/610-fluro"
+                                    class="btn btn-outline-secondary">Choose
+                                    Options</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 9: John's 500 Tooty Frutty Spiderman -->
+                    <div class="col-lg">
+                        <div class="card rounded">
+                            <img src="./9.png" class="card-img-top"
+                                alt="John's 500 Tooty Frutty Spiderman">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">John's 500 Tooty Frutty
+                                    Spiderman</h5>
+                                <p class="card-text">Rs. 599.00 (Sold Out)</p>
+                                <a
+                                    href="/products/johns-500-tooty-frutty-spiderman"
+                                    class="btn btn-outline-secondary">Choose
+                                    Options</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 10: John's 500 Tooty Frutty Frozen -->
+                    <div class="col-lg">
+                        <div class="card rounded">
+                            <img src="./10.png" class="card-img-top"
+                                alt="John's 500 Tooty Frutty Frozen">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">John's 500 Tooty Frutty
+                                    Frozen</h5>
+                                <p class="card-text">Rs. 599.00 (Sold Out)</p>
+                                <a
+                                    href="/products/johns-500-tooty-frutty-frozen"
+                                    class="btn btn-outline-secondary">Choose
+                                    Options</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel (Shown on sm/md screens only) -->
+            <div class="container my-5 d-lg-none">
+                <h2 class="mb-4">Collections (Carousel)</h2>
+                <div id="cardCarousel" class="carousel slide"
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- Card 1: 545 John's Cool -->
+                        <div class="carousel-item active">
+                            <div class="card rounded carousel-card mx-auto">
+                                <img src="./1.png" class="card-img-top"
+                                    alt="545 John's Cool">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">545 John's Cool</h5>
+                                    <p class="card-text">Rs. 549.00</p>
+                                    <a href="/products/545-johns-cool"
+                                        class="btn btn-outline-secondary">Choose
+                                        Options</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 2: JOHNS LEO 5 FOLD -->
+                        <div class="carousel-item">
+                            <div class="card rounded carousel-card mx-auto">
+                                <img src="./2.png" class="card-img-top"
+                                    alt="JOHNS LEO 5 FOLD">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">JOHNS LEO 5 FOLD</h5>
+                                    <p class="card-text">From Rs. 560.00</p>
+                                    <a href="/products/585-johns-leo"
+                                        class="btn btn-outline-secondary">Choose
+                                        Options</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 3: John's 545 H2O 3Fold -->
+                        <div class="carousel-item">
+                            <div class="card rounded carousel-card mx-auto">
+                                <img src="./3.png" class="card-img-top"
+                                    alt="John's 545 H2O 3Fold">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">John's 545 H2O
+                                        3Fold</h5>
+                                    <p class="card-text">Rs. 599.00 (Sold
+                                        Out)</p>
+                                    <a href="/products/johns-545-h2o-3fold"
+                                        class="btn btn-outline-secondary">Choose
+                                        Options</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 4: John's 520 Mini -->
+                        <div class="carousel-item">
+                            <div class="card rounded carousel-card mx-auto">
+                                <img src="./4.png" class="card-img-top"
+                                    alt="John's 520 Mini">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">John's 520 Mini</h5>
+                                    <p class="card-text">Rs. 699.00</p>
+                                    <a href="/products/johns-520-mini"
+                                        class="btn btn-outline-secondary">Choose
+                                        Options</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 5: John's 610 Mac -->
+                        <div class="carousel-item">
+                            <div class="card rounded carousel-card mx-auto">
+                                <img src="./5.png" class="card-img-top"
+                                    alt="John's 610 Mac">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">John's 610 Mac</h5>
+                                    <p class="card-text">Rs. 975.00</p>
+                                    <a href="/products/johns-610-mac"
+                                        class="btn btn-outline-secondary">Choose
+                                        Options</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 6: John's 635 Walkmate -->
+                        <div class="carousel-item">
+                            <div class="card rounded carousel-card mx-auto">
+                                <img src="./6.png" class="card-img-top"
+                                    alt="John's 635 Walkmate">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">John's 635
+                                        Walkmate</h5>
+                                    <p class="card-text">Rs. 1,299.00 (Sold
+                                        Out)</p>
+                                    <a href="/products/johns-635-walkmate"
+                                        class="btn btn-outline-secondary">Choose
+                                        Options</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 7: John's 545 Mac 3 Fold -->
+                        <div class="carousel-item">
+                            <div class="card rounded carousel-card mx-auto">
+                                <img src="./7.png" class="card-img-top"
+                                    alt="John's 545 Mac 3 Fold">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">John's 545 Mac 3
+                                        Fold</h5>
+                                    <p class="card-text">Rs. 699.00</p>
+                                    <a
+                                        href="/products/johns-545-mac-3-fold-green"
+                                        class="btn btn-outline-secondary">Choose
+                                        Options</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 8: 610 Fluro -->
+                        <div class="carousel-item">
+                            <div class="card rounded carousel-card mx-auto">
+                                <img src="./8.png" class="card-img-top"
+                                    alt="610 Fluro">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">610 Fluro</h5>
+                                    <p class="card-text">Rs. 799.00</p>
+                                    <a href="/products/610-fluro"
+                                        class="btn btn-outline-secondary">Choose
+                                        Options</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 9: John's 500 Tooty Frutty Spiderman -->
+                        <div class="carousel-item">
+                            <div class="card rounded carousel-card mx-auto">
+                                <img src="./9.png" class="card-img-top"
+                                    alt="John's 500 Tooty Frutty Spiderman">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">John's 500 Tooty
+                                        Frutty Spiderman</h5>
+                                    <p class="card-text">Rs. 599.00 (Sold
+                                        Out)</p>
+                                    <a
+                                        href="/products/johns-500-tooty-frutty-spiderman"
+                                        class="btn btn-outline-secondary">Choose
+                                        Options</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 10: John's 500 Tooty Frutty Frozen -->
+                        <div class="carousel-item">
+                            <div class="card rounded carousel-card mx-auto">
+                                <img src="./10.png" class="card-img-top"
+                                    alt="John's 500 Tooty Frutty Frozen">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">John's 500 Tooty
+                                        Frutty Frozen</h5>
+                                    <p class="card-text">Rs. 599.00 (Sold
+                                        Out)</p>
+                                    <a
+                                        href="/products/johns-500-tooty-frutty-frozen"
+                                        class="btn btn-outline-secondary">Choose
+                                        Options</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <div
+                        class="carousel-controls d-flex justify-content-center mt-3">
+                        <button class="btn btn-link text-dark" type="button"
+                            data-bs-target="#cardCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="btn btn-link text-dark" type="button"
+                            data-bs-target="#cardCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                    <!-- See More Link -->
+                    <div class="text-center mt-2 text-dark">
+                        <a href="#" class="text-decoration-underline">See
+                            More</a>
+                    </div>
+                </div>
+            </div>
+            <section class="fullscreen-video">
+                <video autoplay muted loop playsinline>
+                    <source src="./video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+            <div class="container-fluid pt-5 px-0 position-relative">
+                <img src="./main2.png" alt="Umbrella"
+                    class="img-fluid w-100 umbrella-image">
+                <div class="image-text-overlay">
+                    <p>Premium Protection. Priced Like a 3-Fold.-Step up
+                        your
+                        everyday carry with John’s Leo, the ultra-compact
+                        umbrella that delivers more than you'd expect.
+                        Designed
+                        for both sun and storm, it combines smart features
+                        with
+                        unbeatable value.</p>
+                </div>
+            </div>
+        </main>
+        <footer
+            class="container-fluid bg-light d-flex flex-column align-items-center">
+            <h3 class="mb-4">Quick links</h3>
+            <div class="d-flex justify-content-center gap-3 mb-4">
+                <a href="#"
+                    class="text-dark text-decoration-none px-3 py-2">Contact
+                    Us</a>
+                <a href="#"
+                    class="text-dark text-decoration-none px-3 py-2">Bulk
+                    Order</a>
+                <a href="#"
+                    class="text-dark text-decoration-none px-3 py-2">Corporate
+                    Order</a>
+                <a href="#"
+                    class="text-dark text-decoration-none px-3 py-2">Dealer
+                    Enquiry</a>
+            </div>
+            <div
+                class="d-flex justify-content-between align-items-center w-100 px-5 mb-4">
+                <div class="position-relative w-100"
+                    style="max-width: 300px;">
+                    <input type="email" class="form-control"
+                        placeholder="Email">
+                    <button
+                        class="btn position-absolute end-0 top-50 translate-middle-y">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                <a href="#" class="text-dark ms-4">
+                    <i class="fab fa-instagram fs-4"></i>
+                </a>
+            </div>
+            <footer class="bg-light py-4">
+                <div class="container text-center">
+                    <img src="./paypal.png" class="paypal-logo mb-3"
+                        alt="PayPal">
+                    <p class="mb-0 small text-muted">
+                        © 2025, John's Umbrella Mart POS and Ecommerce by
+                        Shopify ·
+                        <a href="#"
+                            class="text-decoration-none text-muted">Refund
+                            policy</a> ·
+                        <a href="#"
+                            class="text-decoration-none text-muted">Terms of
+                            service</a> ·
+                        <a href="#"
+                            class="text-decoration-none text-muted">Privacy
+                            policy</a> ·
+                        <a href="#"
+                            class="text-decoration-none text-muted">Shipping
+                            policy</a> ·
+                        <a href="#"
+                            class="text-decoration-none text-muted">Contact
+                            information</a>
+                    </p>
+                </div>
+            </footer>
+
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
